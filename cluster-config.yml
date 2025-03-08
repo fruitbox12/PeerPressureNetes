@@ -1,0 +1,9 @@
+swarm: test-name
+nodes:
+  count: 10
+  httpPort: 8080
+  wsPort: 8585
+  randomPortRange:
+    min: 3000
+    max: 10000
+cleanup: true
